@@ -151,7 +151,7 @@ namespace kimchi
                         case 3: exit(); break;
                     }
                 }
-            } while (userNumber != magicNumber || tries == 0);
+            } while (userNumber != magicNumber);
         }
 
         static void exit()
